@@ -1,0 +1,36 @@
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px;
+  width: 400px;
+  height: 550px;
+  /* gap: 10px; */
+  border-style:solid;
+}
+.grid-item {
+  margin:10px;
+  background-color: darkgray;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  font-size: 20px;
+  text-align:center;
+}
+.input {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color:dimgray;
+  text-align: right !important;
+}
+.equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color:cornflowerblue;
+}
+.clear {
+    background-color: red;
+}
+h3 {
+    margin-left: 30px;
+}
+
